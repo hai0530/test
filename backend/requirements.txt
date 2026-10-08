@@ -1,0 +1,28 @@
+# Runtime dependencies
+alembic==1.15.2
+asyncpg==0.30.0
+bcrypt==4.3.0
+email-validator==2.3.0
+fastapi==0.142.2
+httpx==0.28.1
+passlib==1.7.4
+pydantic==2.13.4
+pydantic-settings==2.9.1
+PyJWT==2.15.1
+python-dotenv==1.2.2
+python-multipart==0.0.32
+redis==6.4.0
+SQLAlchemy==2.0.41
+starlette==1.7.0
+uvicorn[standard]==0.34.3
+
+# Data seeding and test dependencies
+Faker==40.21.0
+aiosqlite==0.20.0
+pytest==9.0.3
+pytest-asyncio==1.4.0
+pytest-cov==7.1.0
+
+# Quality gates
+black==26.5.0
+flake8==7.3.0

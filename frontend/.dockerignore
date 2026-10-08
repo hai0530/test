@@ -1,0 +1,16 @@
+node_modules/
+venv/
+.venv/
+test.db
+.git/
+.gitignore
+.env
+.env.*
+coverage/
+dist/
+.vite/
+test-results/
+playwright-report/
+*.log
+npm-debug.log*
+.DS_Store
